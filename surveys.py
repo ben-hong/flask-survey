@@ -34,6 +34,11 @@ satisfaction_survey = Survey(
         Question("Are you likely to shop here again?"),
     ])
 
+# accessing satisfaction_survey
+# satisfaction_survey.questions[0].question > returns the current question
+# satisfaction_survey.questions[0].choices > returns list of choices
+
+
 personality_quiz = Survey(
     "Rithm Personality Test",
     "Learn more about yourself with our personality quiz!",
